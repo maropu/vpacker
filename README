@@ -8,7 +8,7 @@ integer array. It is assumed to encode a sequence of integers
 with highly positive skewness. The skewness is a distribution
 where the mass of the distribution is concentrated on the
 left, i.e., an element of the sequence is rarely a large
-integer. The main aspects of vpaker are;
+integer. The main aspects of vpacker are;
 
 - Low heap requirements for compression & decompression
 - Fast decompression against legacy algorithms (e.g., gamma codes)
@@ -49,8 +49,8 @@ Currently, vpacker is much slower than other state-of-the-art
 techniques for integer compression according to a journal
 (http://arxiv.org/abs/1209.2137). However, this first release
 focuses on low heap usages, usability, and portability.
-Some optimization techniques (architecutre-aware designs and
-SIMD optimizations) are future ToDo items for a next relase.
+Some optimization techniques (architecture-aware designs and
+SIMD optimization) are future ToDo items for a next release.
 
 
 License
