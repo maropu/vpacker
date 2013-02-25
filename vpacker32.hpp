@@ -1083,10 +1083,10 @@ inline size_t CompressBound(size_t n) {
 /*-------------------------------------------------
  * A simple interface for compression
  *
- * src    : input buffer
- * dst    : output buffer
- * n      : # of input integers
- * return : # of written bytes in Compress()
+ *  src    : input buffer
+ *  dst    : output buffer
+ *  n      : # of input integers
+ *  return : # of written bytes in Compress()
  *-------------------------------------------------
  */
 inline size_t Compress(const uint32_t *src,
@@ -1135,10 +1135,10 @@ inline size_t Compress(const uint32_t *src,
 /*-------------------------------------------------
  * A simple interface for decompression
  *
- * src    : input buffer
- * dst    : output buffer
- * n      : # of input bytes
- * return : # of read bytes in Uncompress()
+ *  src    : input buffer
+ *  dst    : output buffer
+ *  n      : # of input bytes
+ *  return : # of read bytes in Uncompress()
  *-------------------------------------------------
  */
 inline size_t Uncompress(const char *src,
